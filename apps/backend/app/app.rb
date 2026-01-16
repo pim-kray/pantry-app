@@ -1,7 +1,9 @@
 require "sinatra"
 require "sinatra/json"
+require "sequel"
 
 require_relative "./routes/health"
+require_relative "../config/database"
 
 class PantryApp < Sinatra::Base
   before do

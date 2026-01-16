@@ -6,3 +6,7 @@ gem "sinatra"
 gem "sinatra-contrib" # json, namespace, etc.
 gem "rackup"
 gem "webrick"
+
+# Database
+gem "sequel"
+gem "sqlite3"
