@@ -10,3 +10,9 @@ gem "webrick"
 # Database
 gem "sequel"
 gem "sqlite3"
+
+# Password hashing
+gem "bcrypt"
+
+# CORS
+gem "rack-cors"
